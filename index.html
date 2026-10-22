@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101214">
+  <meta name="description" content="Abilash C M — Automotive Engineering Portfolio. Projects in PEMFC simulation, electric mobility, and physics-guided machine learning.">
+  <title>Abilash C M | Automotive Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">ABILASH C M <span> / AUTOMOTIVE ENGINEERING</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="top-cta" href="#projects">View portfolio <span>↘</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-photo" role="img" aria-label="Motorcycle rider leaning into a turn on a wet race track"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><i></i> AUTOMOTIVE • ENGINEERING • MOBILITY</p>
+        <h1>ABILASH<br><span>C M</span></h1>
+        <p class="hero-title">AUTOMOTIVE ENGINEERING<br>PORTFOLIO</p>
+        <p class="hero-copy">Exploring vehicle design, engineering simulation, electric mobility, and physics-guided machine learning.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a class="text-link" href="#about">A little about me <span>↓</span></a></div>
+      </div>
+      <div class="hero-index"><span>01</span> / PORTFOLIO</div>
+      <div class="hero-caption">MOTORSPORT • TEAM DARK</div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="section-label"><span>01</span><span>ABOUT</span></div>
+      <div class="intro-main"><p class="eyebrow orange">AUTOMOTIVE ENGINEERING STUDENT</p><h2>Engineering curiosity,<br><em>built for the real world.</em></h2></div>
+      <div class="intro-aside"><p>I’m Abilash C M, an automobile engineering student interested in automotive R&amp;D, electric vehicle design, engineering simulation, and applied machine learning.</p><p class="interest-line">CAD DESIGN <b>•</b> CAE ANALYSIS <b>•</b> CFD <b>•</b> EV TECHNOLOGY <b>•</b> MACHINE LEARNING</p></div>
+    </section>
+
+    <section class="projects section-wrap" id="projects">
+      <div class="section-head"><div class="section-label"><span>02</span><span>SELECTED WORK</span></div><h2>Projects with a purpose.</h2><p>Simulation, data, and design—applied to mobility challenges.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-feature">
+          <div class="project-visual visual-ml"><div class="visual-tag">RESEARCH • MACHINE LEARNING</div><div class="plot"><span></span><span></span><span></span><span></span><span></span><b>MODEL OUTPUT</b></div><div class="visual-stamp">PEMFC<br>ML</div></div>
+          <div class="project-body"><div class="project-meta"><span>01 / DATA-DRIVEN ENGINEERING</span><span>2026</span></div><h3>Physics-Guided ML Surrogate for PEMFC</h3><p>A multi-output surrogate model estimating fuel-cell operating outputs from operating conditions, with physical variables guiding the feature set.</p><div class="metric-row"><div><strong>0.9990–0.9997</strong><small>Internal test R² range</small></div><div><strong>0.0084 V</strong><small>Cell-voltage RMSE</small></div><div><strong>0.238 K</strong><small>Temperature RMSE</small></div></div><p class="note">Internal simulated-data test split; independent experimental validation is not yet established.</p><div class="result-gallery ml-gallery"><figure><img src="assets/pemfc-current-voltage.png" alt="Current versus cell voltage for successful PEMFC simulation cases"><figcaption>Successful cases • current vs cell voltage</figcaption></figure><figure><img src="assets/pemfc-current-distribution.png" alt="Distribution of current values across successful PEMFC simulation cases"><figcaption>Successful cases • current distribution</figcaption></figure><figure><img src="assets/pemfc-temperature-distribution.png" alt="Distribution of temperature values across successful PEMFC simulation cases"><figcaption>Successful cases • temperature distribution</figcaption></figure></div><p class="note">Dataset figures from the supplied project ZIP. They show simulated case coverage, not independent experimental validation.</p></div>
+        </article>
+        <article class="project-card">
+          <div class="project-image"><img src="assets/cornering.webp" alt="Team motorcycle leaning through a track corner"><span class="image-chip">ELECTRIC MOBILITY</span></div>
+          <div class="project-body"><div class="project-meta"><span>02 / VEHICLE DESIGN</span><span>EV</span></div><h3>Electric Two-Wheeler Design</h3><p>Student motorsport experience informing practical thinking about electric two-wheeler design, vehicle integration, and team engineering.</p><div class="tags"><span>VEHICLE DESIGN</span><span>ELECTRIC MOBILITY</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-image"><img src="assets/pemfc-static-pressure.png" alt="ANSYS Fluent static-pressure contour for the PEMFC CFD model"><span class="image-chip">CFD • STATIC PRESSURE</span></div>
+          <div class="project-body"><div class="project-meta"><span>03 / COMPUTATIONAL STUDY</span><span>PEMFC</span></div><h3>PEMFC CFD Analysis</h3><p>A computational study of flow, species, thermal, and electrochemical behaviour in a proton exchange membrane fuel cell.</p><div class="tags"><span>ANSYS FLUENT</span><span>MESH</span><span>PRESSURE CONTOUR</span></div><div class="result-gallery cfd-gallery"><figure><img src="assets/pemfc-mesh-boundaries.png" alt="PEMFC CFD geometry mesh with inlet and outlet boundary markers"><figcaption>Model mesh and boundary markers</figcaption></figure><figure><img src="assets/pemfc-fine-mesh.png" alt="Close view of the fine computational mesh"><figcaption>Fine mesh view</figcaption></figure></div><p class="note">Pressure contour shown as a preliminary simulation visualization; report residuals had not fully converged.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="achievement-band" id="achievements">
+      <div class="section-wrap achievement-inner"><div><div class="section-label"><span>03</span><span>ACHIEVEMENTS</span></div><h2>Learning by<br><em>building together.</em></h2><p class="achievement-copy">Competition results reflect the work of a team—planning, design, preparation, and execution.</p></div><div class="achievement-list"><article><span class="award-no">01</span><div><small>IEBC SEASON 2</small><h3>3rd Overall</h3><p>Electric two-wheeler competition</p></div><span class="award-arrow">↗</span></article><article><span class="award-no">02</span><div><small>ETWDC • 7TH EDITION</small><h3>Best Presentation • 3rd Prize</h3><p>SAEINDIA Southern Section Electric Two-Wheeler Design Competition, March 2026</p></div><span class="award-arrow">↗</span></article><article><span class="award-no">03</span><div><small>I'QUEST'25</small><h3>3rd Place • Innovative Project</h3><p>Inflating air in tires caused by blowouts</p></div><span class="award-arrow">↗</span></article><div class="team-photo"><img src="assets/team.webp" alt="Team members gathered around their motorcycle" loading="lazy"><span>TEAMWORK • MOTORSPORT</span></div></div>
+        <div class="award-gallery">
+          <figure><a href="assets/etwdc-third-prize.webp" target="_blank" rel="noopener"><img src="assets/etwdc-third-prize.webp" alt="ETWDC certificate recording third prize for best presentation" loading="lazy"></a><figcaption>ETWDC • Best Presentation, Third Prize</figcaption></figure>
+          <figure><a href="assets/iquest-third-place.webp" target="_blank" rel="noopener"><img src="assets/iquest-third-place.webp" alt="iQuest 2025 third-place certificate for the tire blowout project" loading="lazy"></a><figcaption>iQuest'25 • Third Place</figcaption></figure>
+          <figure><a href="assets/iebc-season2-participation.webp" target="_blank" rel="noopener"><img src="assets/iebc-season2-participation.webp" alt="Indian E-Bike Championship Season 2 participation certificate" loading="lazy"></a><figcaption>IEBC Season 2 • Participation</figcaption></figure>
+          <figure><a href="assets/iquest-participation.webp" target="_blank" rel="noopener"><img src="assets/iquest-participation.webp" alt="iQuest 2025 certificate of participation" loading="lazy"></a><figcaption>iQuest'25 • Project presentation</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="credentials section-wrap" id="certifications">
+      <div class="section-head"><div class="section-label"><span>04</span><span>CERTIFICATIONS</span></div><h2>Learning, with proof.</h2><p>Course results and training certificates. Select a certificate image or result to view it larger.</p></div>
+      <div class="nptel-grid">
+        <article class="nptel-card"><div class="nptel-kicker">NPTEL • JUL–OCT 2025</div><h3>Introduction to Internet of Things</h3><div class="score">79<span>%</span></div><p>12-week course • Certificate result</p><a href="assets/nptel-introduction-to-iot-result.pdf" target="_blank" rel="noopener">Open result PDF <span>↗</span></a></article>
+        <article class="nptel-card"><div class="nptel-kicker">NPTEL • JAN–APR 2026</div><h3>Business Development: From Start to Scale</h3><div class="score">86<span>%</span></div><p>12-week course • Certificate result</p><a href="assets/nptel-business-development-result.pdf" target="_blank" rel="noopener">Open result PDF <span>↗</span></a></article>
+        <article class="nptel-card"><div class="nptel-kicker">NPTEL • JAN–APR 2026</div><h3>Education for Sustainable Development</h3><div class="score">99<span>%</span></div><p>12-week course • Certificate result</p><a href="assets/nptel-sustainable-development-result.pdf" target="_blank" rel="noopener">Open result PDF <span>↗</span></a></article>
+      </div>
+      <div class="certificate-grid">
+        <figure><a href="assets/cadd-india-merit.webp" target="_blank" rel="noopener"><img src="assets/cadd-india-merit.webp" alt="CADD India Certificate of Merit, Grade A" loading="lazy"></a><figcaption><strong>CADD India R&amp;D</strong><span>Grade A • AutoCAD, Creo, CATIA &amp; SolidWorks • Jan–Jun 2026</span></figcaption></figure>
+        <figure><a href="assets/bosch-fuel-injection.webp" target="_blank" rel="noopener"><img src="assets/bosch-fuel-injection.webp" alt="Bosch Fuel Injection Pump training certificate" loading="lazy"></a><figcaption><strong>Fuel Injection Pump</strong><span>Bosch–Rajalakshmi Engineering College • 28–29 Aug 2025</span></figcaption></figure>
+        <figure><a href="assets/bosch-starter-alternator.webp" target="_blank" rel="noopener"><img src="assets/bosch-starter-alternator.webp" alt="Bosch Automotive Starter Motor and Alternator System certificate" loading="lazy"></a><figcaption><strong>Starter Motor &amp; Alternator System</strong><span>Bosch–Rajalakshmi Engineering College • 12 Aug 2025</span></figcaption></figure>
+        <figure><a href="assets/bosch-vehicle-diagnostics.webp" target="_blank" rel="noopener"><img src="assets/bosch-vehicle-diagnostics.webp" alt="Bosch Vehicle Diagnostics System training certificate" loading="lazy"></a><figcaption><strong>Vehicle Diagnostics System</strong><span>Bosch–Rajalakshmi Engineering College • 18–19 Aug 2025</span></figcaption></figure>
+        <figure><a href="assets/mind-management-workshop.webp" target="_blank" rel="noopener"><img src="assets/mind-management-workshop.webp" alt="Mind Management Workshop participation certificate" loading="lazy"></a><figcaption><strong>Mind Management Workshop</strong><span>Personality Enhancement Educational Workshop • six days</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="section-label"><span>05</span><span>WHAT'S NEXT</span></div><div class="contact-body"><p class="eyebrow orange">LET'S CONNECT</p><h2>Good engineering<br>starts with a question.</h2><p>Interested in automotive engineering, EVs, simulation, or applied ML? I’m building my portfolio and open to meaningful conversations.</p><p class="contact-note">Contact details can be added when you’re ready.</p></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home">ABILASH C M <span> / AUTOMOTIVE ENGINEERING</span></a><span>PORTFOLIO • 2026</span><a href="#home">BACK TO TOP ↑</a></footer>
+</body>
+</html>
